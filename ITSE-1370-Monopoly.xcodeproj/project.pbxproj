@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		66DF18E3267A656C001C4AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DF18E1267A656C001C4AB0 /* Main.storyboard */; };
 		66DF18E5267A656E001C4AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DF18E4267A656E001C4AB0 /* Assets.xcassets */; };
 		66DF18E8267A656E001C4AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DF18E6267A656E001C4AB0 /* LaunchScreen.storyboard */; };
+		66E68E71267A6926008B0F31 /* monopoly-engine in Frameworks */ = {isa = PBXBuildFile; productRef = 66E68E70267A6926008B0F31 /* monopoly-engine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E68E71267A6926008B0F31 /* monopoly-engine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +46,7 @@
 				66DF18EF267A65EC001C4AB0 /* monopoly-engine */,
 				66DF18DA267A656C001C4AB0 /* ITSE-1370-Monopoly */,
 				66DF18D9267A656C001C4AB0 /* Products */,
+				66E68E6F267A6926008B0F31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +72,13 @@
 			path = "ITSE-1370-Monopoly";
 			sourceTree = "<group>";
 		};
+		66E68E6F267A6926008B0F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +95,9 @@
 			dependencies = (
 			);
 			name = "ITSE-1370-Monopoly";
+			packageProductDependencies = (
+				66E68E70267A6926008B0F31 /* monopoly-engine */,
+			);
 			productName = "ITSE-1370-Monopoly";
 			productReference = 66DF18D8267A656C001C4AB0 /* ITSE-1370-Monopoly.app */;
 			productType = "com.apple.product-type.application";
@@ -343,6 +356,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66E68E70267A6926008B0F31 /* monopoly-engine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "monopoly-engine";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 66DF18D0267A656C001C4AB0 /* Project object */;
 }
