@@ -7,21 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660ADD972680F1A300A145EB /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 660ADD962680F1A300A145EB /* RxSwift */; };
+		660ADD9B2680F1A300A145EB /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 660ADD9A2680F1A300A145EB /* RxRelay */; };
+		660ADD9D2680F1A300A145EB /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 660ADD9C2680F1A300A145EB /* RxCocoa */; };
+		660ADD9F2680F1A300A145EB /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 660ADD9E2680F1A300A145EB /* RxBlocking */; };
+		660ADDA22680F1BF00A145EB /* RxFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 660ADDA12680F1BF00A145EB /* RxFlow */; };
+		660ADDAB2680F21B00A145EB /* NeonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDA52680F21B00A145EB /* NeonExtensions.swift */; };
+		660ADDAC2680F21B00A145EB /* NeonFrameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDA62680F21B00A145EB /* NeonFrameable.swift */; };
+		660ADDAD2680F21B00A145EB /* Neon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDA72680F21B00A145EB /* Neon.swift */; };
+		660ADDAE2680F21B00A145EB /* NeonAlignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDA82680F21B00A145EB /* NeonAlignable.swift */; };
+		660ADDAF2680F21B00A145EB /* NeonGroupable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDA92680F21B00A145EB /* NeonGroupable.swift */; };
+		660ADDB02680F21B00A145EB /* NeonAnchorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDAA2680F21B00A145EB /* NeonAnchorable.swift */; };
+		660ADDB52680F5DB00A145EB /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = 660ADDB42680F5DB00A145EB /* Reusable */; };
+		660ADDBB2680F6E700A145EB /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDBA2680F6E700A145EB /* AppStep.swift */; };
+		660ADDBD2680F80500A145EB /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDBC2680F80500A145EB /* AppFlow.swift */; };
+		660ADDC02680F8ED00A145EB /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = 660ADDBF2680F8ED00A145EB /* SwiftyBeaver */; };
+		660ADDC22680F90000A145EB /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDC12680F90000A145EB /* Logging.swift */; };
+		660ADDC42680FB8400A145EB /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDC32680FB8400A145EB /* LandingView.swift */; };
+		660ADDC62680FBA900A145EB /* LandingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660ADDC52680FBA900A145EB /* LandingView.storyboard */; };
+		660ADDCB268102ED00A145EB /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDCA268102ED00A145EB /* BaseController.swift */; };
+		660ADDCD268103F200A145EB /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDCC268103F200A145EB /* NewGameView.swift */; };
+		660ADDCF2681042A00A145EB /* NewGameView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660ADDCE2681042A00A145EB /* NewGameView.storyboard */; };
 		66DF18DC267A656C001C4AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF18DB267A656C001C4AB0 /* AppDelegate.swift */; };
 		66DF18DE267A656C001C4AB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF18DD267A656C001C4AB0 /* SceneDelegate.swift */; };
-		66DF18E0267A656C001C4AB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF18DF267A656C001C4AB0 /* ViewController.swift */; };
-		66DF18E3267A656C001C4AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DF18E1267A656C001C4AB0 /* Main.storyboard */; };
 		66DF18E5267A656E001C4AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DF18E4267A656E001C4AB0 /* Assets.xcassets */; };
 		66DF18E8267A656E001C4AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DF18E6267A656E001C4AB0 /* LaunchScreen.storyboard */; };
 		66E68E71267A6926008B0F31 /* monopoly-engine in Frameworks */ = {isa = PBXBuildFile; productRef = 66E68E70267A6926008B0F31 /* monopoly-engine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		660ADDA52680F21B00A145EB /* NeonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonExtensions.swift; sourceTree = "<group>"; };
+		660ADDA62680F21B00A145EB /* NeonFrameable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonFrameable.swift; sourceTree = "<group>"; };
+		660ADDA72680F21B00A145EB /* Neon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neon.swift; sourceTree = "<group>"; };
+		660ADDA82680F21B00A145EB /* NeonAlignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAlignable.swift; sourceTree = "<group>"; };
+		660ADDA92680F21B00A145EB /* NeonGroupable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonGroupable.swift; sourceTree = "<group>"; };
+		660ADDAA2680F21B00A145EB /* NeonAnchorable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAnchorable.swift; sourceTree = "<group>"; };
+		660ADDBA2680F6E700A145EB /* AppStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
+		660ADDBC2680F80500A145EB /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		660ADDC12680F90000A145EB /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		660ADDC32680FB8400A145EB /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		660ADDC52680FBA900A145EB /* LandingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandingView.storyboard; sourceTree = "<group>"; };
+		660ADDCA268102ED00A145EB /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		660ADDCC268103F200A145EB /* NewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
+		660ADDCE2681042A00A145EB /* NewGameView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewGameView.storyboard; sourceTree = "<group>"; };
 		66DF18D8267A656C001C4AB0 /* ITSE-1370-Monopoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITSE-1370-Monopoly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DF18DB267A656C001C4AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66DF18DD267A656C001C4AB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66DF18DF267A656C001C4AB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		66DF18E2267A656C001C4AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66DF18E4267A656E001C4AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66DF18E7267A656E001C4AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66DF18E9267A656E001C4AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,13 +64,106 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660ADD972680F1A300A145EB /* RxSwift in Frameworks */,
+				660ADDA22680F1BF00A145EB /* RxFlow in Frameworks */,
+				660ADD9F2680F1A300A145EB /* RxBlocking in Frameworks */,
+				660ADDB52680F5DB00A145EB /* Reusable in Frameworks */,
+				660ADD9D2680F1A300A145EB /* RxCocoa in Frameworks */,
+				660ADD9B2680F1A300A145EB /* RxRelay in Frameworks */,
 				66E68E71267A6926008B0F31 /* monopoly-engine in Frameworks */,
+				660ADDC02680F8ED00A145EB /* SwiftyBeaver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660ADDA32680F1ED00A145EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				660ADDB22680F24F00A145EB /* Bootstrap */,
+				660ADDB12680F24500A145EB /* Routing */,
+				660ADDA42680F1F400A145EB /* Neon */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		660ADDA42680F1F400A145EB /* Neon */ = {
+			isa = PBXGroup;
+			children = (
+				660ADDA72680F21B00A145EB /* Neon.swift */,
+				660ADDA82680F21B00A145EB /* NeonAlignable.swift */,
+				660ADDAA2680F21B00A145EB /* NeonAnchorable.swift */,
+				660ADDA52680F21B00A145EB /* NeonExtensions.swift */,
+				660ADDA62680F21B00A145EB /* NeonFrameable.swift */,
+				660ADDA92680F21B00A145EB /* NeonGroupable.swift */,
+			);
+			path = Neon;
+			sourceTree = "<group>";
+		};
+		660ADDB12680F24500A145EB /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				660ADDBA2680F6E700A145EB /* AppStep.swift */,
+				660ADDBC2680F80500A145EB /* AppFlow.swift */,
+				660ADDC12680F90000A145EB /* Logging.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		660ADDB22680F24F00A145EB /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				660ADDCA268102ED00A145EB /* BaseController.swift */,
+			);
+			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		660ADDB62680F67800A145EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				660ADDB82680F6B500A145EB /* Landing */,
+				660ADDB72680F68900A145EB /* NewGame */,
+				660ADDB92680F6BA00A145EB /* Game */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		660ADDB72680F68900A145EB /* NewGame */ = {
+			isa = PBXGroup;
+			children = (
+				660ADDCC268103F200A145EB /* NewGameView.swift */,
+				660ADDCE2681042A00A145EB /* NewGameView.storyboard */,
+			);
+			path = NewGame;
+			sourceTree = "<group>";
+		};
+		660ADDB82680F6B500A145EB /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				660ADDC32680FB8400A145EB /* LandingView.swift */,
+				660ADDC52680FBA900A145EB /* LandingView.storyboard */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		660ADDB92680F6BA00A145EB /* Game */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		66DE1EA6267D4B07000D3848 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66DF18E4267A656E001C4AB0 /* Assets.xcassets */,
+				66DF18E6267A656E001C4AB0 /* LaunchScreen.storyboard */,
+				66DF18E9267A656E001C4AB0 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		66DF18CF267A656C001C4AB0 = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +187,9 @@
 			children = (
 				66DF18DB267A656C001C4AB0 /* AppDelegate.swift */,
 				66DF18DD267A656C001C4AB0 /* SceneDelegate.swift */,
-				66DF18DF267A656C001C4AB0 /* ViewController.swift */,
-				66DF18E1267A656C001C4AB0 /* Main.storyboard */,
-				66DF18E4267A656E001C4AB0 /* Assets.xcassets */,
-				66DF18E6267A656E001C4AB0 /* LaunchScreen.storyboard */,
-				66DF18E9267A656E001C4AB0 /* Info.plist */,
+				660ADDA32680F1ED00A145EB /* Core */,
+				660ADDB62680F67800A145EB /* Views */,
+				66DE1EA6267D4B07000D3848 /* Resources */,
 			);
 			path = "ITSE-1370-Monopoly";
 			sourceTree = "<group>";
@@ -97,6 +219,13 @@
 			name = "ITSE-1370-Monopoly";
 			packageProductDependencies = (
 				66E68E70267A6926008B0F31 /* monopoly-engine */,
+				660ADD962680F1A300A145EB /* RxSwift */,
+				660ADD9A2680F1A300A145EB /* RxRelay */,
+				660ADD9C2680F1A300A145EB /* RxCocoa */,
+				660ADD9E2680F1A300A145EB /* RxBlocking */,
+				660ADDA12680F1BF00A145EB /* RxFlow */,
+				660ADDB42680F5DB00A145EB /* Reusable */,
+				660ADDBF2680F8ED00A145EB /* SwiftyBeaver */,
 			);
 			productName = "ITSE-1370-Monopoly";
 			productReference = 66DF18D8267A656C001C4AB0 /* ITSE-1370-Monopoly.app */;
@@ -125,6 +254,12 @@
 				Base,
 			);
 			mainGroup = 66DF18CF267A656C001C4AB0;
+			packageReferences = (
+				660ADD952680F1A300A145EB /* XCRemoteSwiftPackageReference "RxSwift" */,
+				660ADDA02680F1BF00A145EB /* XCRemoteSwiftPackageReference "RxFlow" */,
+				660ADDB32680F5DB00A145EB /* XCRemoteSwiftPackageReference "Reusable" */,
+				660ADDBE2680F8ED00A145EB /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+			);
 			productRefGroup = 66DF18D9267A656C001C4AB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,9 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660ADDCF2681042A00A145EB /* NewGameView.storyboard in Resources */,
 				66DF18E8267A656E001C4AB0 /* LaunchScreen.storyboard in Resources */,
+				660ADDC62680FBA900A145EB /* LandingView.storyboard in Resources */,
 				66DF18E5267A656E001C4AB0 /* Assets.xcassets in Resources */,
-				66DF18E3267A656C001C4AB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,23 +288,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66DF18E0267A656C001C4AB0 /* ViewController.swift in Sources */,
+				660ADDC42680FB8400A145EB /* LandingView.swift in Sources */,
+				660ADDAF2680F21B00A145EB /* NeonGroupable.swift in Sources */,
+				660ADDBB2680F6E700A145EB /* AppStep.swift in Sources */,
+				660ADDCB268102ED00A145EB /* BaseController.swift in Sources */,
 				66DF18DC267A656C001C4AB0 /* AppDelegate.swift in Sources */,
+				660ADDC22680F90000A145EB /* Logging.swift in Sources */,
+				660ADDBD2680F80500A145EB /* AppFlow.swift in Sources */,
+				660ADDAE2680F21B00A145EB /* NeonAlignable.swift in Sources */,
+				660ADDAC2680F21B00A145EB /* NeonFrameable.swift in Sources */,
+				660ADDAB2680F21B00A145EB /* NeonExtensions.swift in Sources */,
 				66DF18DE267A656C001C4AB0 /* SceneDelegate.swift in Sources */,
+				660ADDB02680F21B00A145EB /* NeonAnchorable.swift in Sources */,
+				660ADDAD2680F21B00A145EB /* Neon.swift in Sources */,
+				660ADDCD268103F200A145EB /* NewGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		66DF18E1267A656C001C4AB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66DF18E2267A656C001C4AB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		66DF18E6267A656E001C4AB0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -303,7 +442,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S4L29QT59;
-				INFOPLIST_FILE = "ITSE-1370-Monopoly/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ITSE-1370-Monopoly/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.matrixstudios.ITSE-1370-Monopoly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +461,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S4L29QT59;
-				INFOPLIST_FILE = "ITSE-1370-Monopoly/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ITSE-1370-Monopoly/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.matrixstudios.ITSE-1370-Monopoly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -357,7 +496,77 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		660ADD952680F1A300A145EB /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+		660ADDA02680F1BF00A145EB /* XCRemoteSwiftPackageReference "RxFlow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxFlow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.12.2;
+			};
+		};
+		660ADDB32680F5DB00A145EB /* XCRemoteSwiftPackageReference "Reusable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/Reusable.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+		660ADDBE2680F8ED00A145EB /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		660ADD962680F1A300A145EB /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660ADD952680F1A300A145EB /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		660ADD9A2680F1A300A145EB /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660ADD952680F1A300A145EB /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		660ADD9C2680F1A300A145EB /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660ADD952680F1A300A145EB /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		660ADD9E2680F1A300A145EB /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660ADD952680F1A300A145EB /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		660ADDA12680F1BF00A145EB /* RxFlow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660ADDA02680F1BF00A145EB /* XCRemoteSwiftPackageReference "RxFlow" */;
+			productName = RxFlow;
+		};
+		660ADDB42680F5DB00A145EB /* Reusable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660ADDB32680F5DB00A145EB /* XCRemoteSwiftPackageReference "Reusable" */;
+			productName = Reusable;
+		};
+		660ADDBF2680F8ED00A145EB /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660ADDBE2680F8ED00A145EB /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
 		66E68E70267A6926008B0F31 /* monopoly-engine */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "monopoly-engine";
