@@ -28,6 +28,8 @@
 		660ADDCB268102ED00A145EB /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDCA268102ED00A145EB /* BaseController.swift */; };
 		660ADDCD268103F200A145EB /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ADDCC268103F200A145EB /* NewGameView.swift */; };
 		660ADDCF2681042A00A145EB /* NewGameView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660ADDCE2681042A00A145EB /* NewGameView.storyboard */; };
+		6663144F268249A100AE8F5E /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663144E268249A000AE8F5E /* GameBoardView.swift */; };
+		6663145126824A8900AE8F5E /* GameBoardView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6663145026824A8900AE8F5E /* GameBoardView.storyboard */; };
 		66DF18DC267A656C001C4AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF18DB267A656C001C4AB0 /* AppDelegate.swift */; };
 		66DF18DE267A656C001C4AB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF18DD267A656C001C4AB0 /* SceneDelegate.swift */; };
 		66DF18E5267A656E001C4AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DF18E4267A656E001C4AB0 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		660ADDCA268102ED00A145EB /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		660ADDCC268103F200A145EB /* NewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
 		660ADDCE2681042A00A145EB /* NewGameView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewGameView.storyboard; sourceTree = "<group>"; };
+		6663144E268249A000AE8F5E /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		6663145026824A8900AE8F5E /* GameBoardView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameBoardView.storyboard; sourceTree = "<group>"; };
 		66DF18D8267A656C001C4AB0 /* ITSE-1370-Monopoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITSE-1370-Monopoly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DF18DB267A656C001C4AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66DF18DD267A656C001C4AB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +154,8 @@
 		660ADDB92680F6BA00A145EB /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				6663144E268249A000AE8F5E /* GameBoardView.swift */,
+				6663145026824A8900AE8F5E /* GameBoardView.storyboard */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 			files = (
 				660ADDCF2681042A00A145EB /* NewGameView.storyboard in Resources */,
 				66DF18E8267A656E001C4AB0 /* LaunchScreen.storyboard in Resources */,
+				6663145126824A8900AE8F5E /* GameBoardView.storyboard in Resources */,
 				660ADDC62680FBA900A145EB /* LandingView.storyboard in Resources */,
 				66DF18E5267A656E001C4AB0 /* Assets.xcassets in Resources */,
 			);
@@ -299,6 +306,7 @@
 				660ADDAC2680F21B00A145EB /* NeonFrameable.swift in Sources */,
 				660ADDAB2680F21B00A145EB /* NeonExtensions.swift in Sources */,
 				66DF18DE267A656C001C4AB0 /* SceneDelegate.swift in Sources */,
+				6663144F268249A100AE8F5E /* GameBoardView.swift in Sources */,
 				660ADDB02680F21B00A145EB /* NeonAnchorable.swift in Sources */,
 				660ADDAD2680F21B00A145EB /* Neon.swift in Sources */,
 				660ADDCD268103F200A145EB /* NewGameView.swift in Sources */,

@@ -14,4 +14,8 @@ class NewGameView: UIViewController, BaseControllerType, StoryboardBased {
     @IBAction func toGame() {
         stepper.steps.accept(AppStep.board)
     }
+    
+    @IBAction func goBack() {
+        stepper.steps.accept(AppStep.landing)
+    }
 }

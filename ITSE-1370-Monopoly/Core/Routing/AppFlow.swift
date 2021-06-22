@@ -44,6 +44,9 @@ class AppFlow: Flow {
         return .none
     }
     private func toGame() -> FlowContributors {
+        let controller = GameBoardView.instantiate(stepper)
+        rootViewController.pushViewController(controller, animated: true)
+        
         return .none
     }
 }

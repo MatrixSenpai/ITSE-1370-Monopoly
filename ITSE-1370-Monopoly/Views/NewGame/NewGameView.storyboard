@@ -38,12 +38,21 @@
                                     <action selector="toGame" destination="Y6W-OH-hqX" eventType="touchUpInside" id="uoH-1A-x85"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcH-Mz-MuS">
+                                <rect key="frame" x="66" y="20" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="goBack" destination="Y6W-OH-hqX" eventType="touchUpInside" id="c2b-Qb-Fq9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="K7J-Zs-Rsa" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="2P4-5L-2FA"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="K7J-Zs-Rsa" secondAttribute="bottom" constant="19" id="MQt-w0-2ac"/>
+                            <constraint firstItem="rcH-Mz-MuS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="22" id="eos-aj-1TX"/>
+                            <constraint firstItem="rcH-Mz-MuS" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="nLe-bK-tNH"/>
                         </constraints>
                     </view>
                 </viewController>
